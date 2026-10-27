@@ -1,0 +1,41 @@
+[
+  {
+    "input": [
+      "Leyla",
+      "18",
+      true
+    ],
+    "expected": {
+      "name": "Leyla",
+      "age": 18,
+      "hasTicket": true,
+      "result": "Welcome to the cinema!"
+    }
+  },
+  {
+    "input": [
+      "Ali",
+      "16",
+      false
+    ],
+    "expected": {
+      "name": "Ali",
+      "age": 16,
+      "hasTicket": false,
+      "result": "Ticket required!"
+    }
+  },
+  {
+    "input": [
+      "Murad",
+      "15",
+      true
+    ],
+    "expected": {
+      "name": "Murad",
+      "age": 15,
+      "hasTicket": true,
+      "result": "Age restriction!"
+    }
+  }
+]

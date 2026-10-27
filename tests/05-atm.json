@@ -1,0 +1,35 @@
+[
+  {
+    "input": [
+      "1234",
+      "1",
+      null
+    ],
+    "expected": {
+      "message": "Balance: 500 AZN",
+      "balance": 500
+    }
+  },
+  {
+    "input": [
+      "1234",
+      "3",
+      "200"
+    ],
+    "expected": {
+      "message": "Withdrawal successful!",
+      "balance": 300
+    }
+  },
+  {
+    "input": [
+      "9999",
+      "2",
+      "100"
+    ],
+    "expected": {
+      "message": "Incorrect PIN!",
+      "balance": 500
+    }
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "input": [
+      "Notebook",
+      "4",
+      "3"
+    ],
+    "expected": {
+      "product": "Notebook",
+      "unitPrice": 4,
+      "quantity": 3,
+      "total": 12,
+      "over20": false
+    }
+  },
+  {
+    "input": [
+      "Pen",
+      "2.5",
+      "10"
+    ],
+    "expected": {
+      "product": "Pen",
+      "unitPrice": 2.5,
+      "quantity": 10,
+      "total": 25,
+      "over20": true
+    }
+  },
+  {
+    "input": [
+      "Book",
+      "20",
+      "1"
+    ],
+    "expected": {
+      "product": "Book",
+      "unitPrice": 20,
+      "quantity": 1,
+      "total": 20,
+      "over20": false
+    }
+  }
+]

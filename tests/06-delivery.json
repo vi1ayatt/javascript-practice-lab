@@ -1,0 +1,50 @@
+[
+  {
+    "input": [
+      "40",
+      "2",
+      true,
+      ""
+    ],
+    "expected": {
+      "orderAmount": 40,
+      "zone": 2,
+      "vip": true,
+      "discount": 4,
+      "delivery": 6,
+      "total": 42
+    }
+  },
+  {
+    "input": [
+      "50",
+      "3",
+      false,
+      ""
+    ],
+    "expected": {
+      "orderAmount": 50,
+      "zone": 3,
+      "vip": false,
+      "discount": 0,
+      "delivery": 0,
+      "total": 50
+    }
+  },
+  {
+    "input": [
+      "20",
+      "1",
+      true,
+      "SAVE5"
+    ],
+    "expected": {
+      "orderAmount": 20,
+      "zone": 1,
+      "vip": true,
+      "discount": 7,
+      "delivery": 3,
+      "total": 16
+    }
+  }
+]

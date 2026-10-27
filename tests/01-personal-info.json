@@ -1,0 +1,47 @@
+[
+  {
+    "input": [
+      "Ali",
+      "20",
+      "Baku"
+    ],
+    "expected": {
+      "name": "Ali",
+      "age": 20,
+      "city": "Baku",
+      "ageAfter5": 25,
+      "nameType": "string",
+      "ageType": "number"
+    }
+  },
+  {
+    "input": [
+      "Leyla",
+      17,
+      "Ganja"
+    ],
+    "expected": {
+      "name": "Leyla",
+      "age": 17,
+      "city": "Ganja",
+      "ageAfter5": 22,
+      "nameType": "string",
+      "ageType": "number"
+    }
+  },
+  {
+    "input": [
+      "Murad",
+      "0",
+      "Shaki"
+    ],
+    "expected": {
+      "name": "Murad",
+      "age": 0,
+      "city": "Shaki",
+      "ageAfter5": 5,
+      "nameType": "string",
+      "ageType": "number"
+    }
+  }
+]
